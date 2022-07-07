@@ -18,14 +18,14 @@
           </svg>
         </a>
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-            <li><a href="/" class="nav-link px-2 text-white">Главная</a></li>
-            <li><a href="/napravl" class="nav-link px-2 text-white">Виды направлений</a></li>
-            <li><a href="/teleph" class="nav-link px-2 text-white">Контактные данные</a></li>
-            <li><a href="/telegbot" class="nav-link px-2 text-white">Телеграмм бот</a></li>
+            <li><a href="/flask_blog/templates/index" class="nav-link px-2 text-white">Главная</a></li>
+            <li><a href="/flask_blog/templates/napravl" class="nav-link px-2 text-white">Виды направлений</a></li>
+            <li><a href="/flask_blog/templates/teleph" class="nav-link px-2 text-white">Контактные данные</a></li>
+            <li><a href="/flask_blog/templates/telegbot" class="nav-link px-2 text-white">Телеграмм бот</a></li>
         </ul>
         <div class="text-end">
-            <a class="btn btn-outline-light me-2" href="/posts">Все заявки</a>
-            <a class="btn btn-warning" href="/create-article">Создать</a>
+            <a class="btn btn-outline-light me-2" href="/flask_blog/templates/posts">Все заявки</a>
+            <a class="btn btn-warning" href="/flask_blog/templates/create-article">Создать</a>
         </div>
       </div>
     </div>
@@ -39,6 +39,19 @@
         <input type="submit" class="btn btn-success" value="Отправить">
     </form>
 </div>
+     <footer class="container d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <p class="col-md-4 mb-0 text-muted">© 2022, IT-cube71</p>
+
+    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+    </a>
+
+    <ul class="nav col-md-4 justify-content-end">
+      <li class="nav-item"><a href="/" class="nav-link px-2 text-muted">Главная</a></li>
+      <li class="nav-item"><a href="/napravl" class="nav-link px-2 text-muted">Направления</a></li>
+      <li class="nav-item"><a href="/teleph" class="nav-link px-2 text-muted">Контакты</a></li>
+      <li class="nav-item"><a href="/telegbot" class="nav-link px-2 text-muted">Бот</a></li>
+    </ul>
+  </footer>
     </body>
 </html>
-{% endblock %}
