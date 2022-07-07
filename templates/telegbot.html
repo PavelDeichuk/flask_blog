@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
-    <title>{% block title %}{% endblock %}</title>
+    <title>Телеграмм</title>
 </head>
 <body>
 <header class="p-3 bg-dark text-white">
@@ -19,13 +19,13 @@
         </a>
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
             <li><a href="/" class="nav-link px-2 text-white">Главная</a></li>
-            <li><a href="/napravl" class="nav-link px-2 text-white">Виды направлений</a></li>
-            <li><a href="/teleph" class="nav-link px-2 text-white">Контактные данные</a></li>
-            <li><a href="/telegbot" class="nav-link px-2 text-white">Телеграмм бот</a></li>
+            <li><a href="/templates/napravl" class="nav-link px-2 text-white">Виды направлений</a></li>
+            <li><a href="/templates/teleph" class="nav-link px-2 text-white">Контактные данные</a></li>
+            <li><a href="/templates/telegbot" class="nav-link px-2 text-white">Телеграмм бот</a></li>
         </ul>
         <div class="text-end">
-            <a class="btn btn-outline-light me-2" href="/posts">Все заявки</a>
-            <a class="btn btn-warning" href="/create-article">Создать</a>
+            <a class="btn btn-outline-light me-2" href="/templates/posts">Все заявки</a>
+            <a class="btn btn-warning" href="/templates/create-article">Создать</a>
         </div>
       </div>
     </div>
